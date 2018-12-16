@@ -1,0 +1,137 @@
+   * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   }
+   :focus {
+   outline: none;
+   }
+   body{
+   font-family: 'Roboto', sans-serif;
+   margin:0;
+   font-size: 14px;
+   }
+   input[type=text], select, textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   resize: vertical;
+   font-size: 18px;
+   font-weight: normal;
+   }
+   label {
+   padding: 12px 12px 12px 0;
+   display: inline-block;
+   color: #fff;
+   font-size: 18px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   }
+   input[type=submit], button[type=submit] {
+   background-color: #fff;
+   color: #000;
+   padding: 10px 45px;
+   margin-top: 45px;
+   border: none;
+   font-size: 18px;
+   border-radius: 4px;
+   border: 1px solid #fff;
+   cursor: pointer;
+   font-weight: bold;
+   }
+   .btn-transparent{
+   background-color: transparent !important;
+   color: #fff !important;
+   }
+   .container {
+   background-color: #e9474b;
+   padding: 50px;
+   }
+   [class^='col']{
+   padding-right: 15px;
+   padding-left: 15px;
+   width: 25%;
+   float: left;
+   }
+   /* Clear floats after the columns */
+   .row:after {
+   content: "";
+   display: table;
+   clear: both;
+   }
+   .row{
+   margin-right: -15px;
+   margin-left: -15px;
+   }
+   .text-center{
+   text-align: center;
+   }
+   .heading{
+   color: #fff;
+   font-size: 40px;
+   font-weight: 500;
+   margin: 0;
+   margin-bottom: 10px;
+   }
+   .sub-heading{
+   color: #fff;
+   font-size: 18px;
+   font-weight: normal;
+   margin-bottom: 20px;
+   width: 40%;
+   }
+   .delete-icon{
+   margin-bottom: 28px;
+   margin-left: 55px;
+   color:#fff;
+   display: block;
+   font-size: 18px;
+   font-weight: bold;
+   }
+   .delete-icon i{
+   margin-right: 15px;
+   color:#fff;
+   }
+   button[type=submit] i{
+    margin-left: 15px;
+   }
+   hr {
+   margin: 40px 15px;
+   border: 0;
+   border-top: 1px solid #eee;
+   }
+   table{
+   width: 100%;
+   }
+   table,  td {
+   border-collapse: collapse;
+   }
+
+   /* Responsive layout - when the screen is less than 767px wide, make the two columns stack on top of each other instead of next to each other */
+   
+   @media screen and (max-width: 767px) {
+   [class^='col'], input[type=submit] {
+   width: 100%;
+   margin-top: 0;
+   }
+   .heading{
+   font-size:30px;
+   }
+   .sub-heading{
+   width: 100%;
+   }
+   input[type=submit],input[type=text],label,.sub-heading,.delete-icon{
+   font-size: 16px;
+   }
+   .delete-icon, input[type=submit]{
+   margin-top:20px;
+   margin-bottom: 20px;
+   }
+   .delete-icon{
+      margin-left: 0;
+   }
+   hr {
+   margin: 10px 15px;
+   }
+   }

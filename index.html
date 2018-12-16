@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+      <script type="text/javascript" src="source.js"></script>
+   </head>
+   <body>   
+      <div class="container">
+         <h2 class="heading">Spread the world !</h2>
+         <p class="sub-heading">Lorem ipsum is derived from the Latin "dolorem ipsum" roughly translated as "pain itself."</p>
+         <div class="row">
+          <form id="form_friend">
+               <table id="tblCustomers" class="form-table">
+                    <thead>
+                    </thead>
+                  <tbody>
+                </tbody>
+                  <tfoot>
+                        <tr>
+                         <td colspan="4">
+                                   <hr>
+                        </td>
+                        </tr>
+                        <tr>
+                                <td class="col">
+                                   <div class="">
+                                      <label for="fname">Name</label>
+                                      <input type="text" id="txtName" name="firstname" placeholder="Your name.." required>
+                                   </div>
+                                </td>
+                                <td class="col">
+                                   <div class="">
+                                      <label for="fname">Surname</label>
+                                      <input type="text" id="txtSurname" name="surname" placeholder="Your surname.." required>
+                                   </div>
+                                </td>
+                                <td class="col">
+                                   <div class="">
+                                      <label for="fname">Email address</label>
+                                      <input type="text" id="txtEmail" name="email" placeholder="Your Email.."  required>
+                                      <!-- <input type="email" name="txtEmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> -->
+                                    </div>
+                                </td>
+                                <td class="col">
+                                   <div class="">
+                                      <input type="submit" value="Add Friend"  onclick="Add()"class="btn-transparent">
+                                   </div>
+                                </td>
+                             </tr>
+                  <tr>
+                     <td colspan="4">
+                        <div class="text-center">
+                           <button type="submit">
+                              Send <i class="fa fa-arrow-right"></i> 
+                           </button>
+                        </div>
+                     </td>
+                  </tr>
+                  </tfoot>
+               </table>
+          </form>
+         </div>
+      </div>
+   </body>
+</html>
